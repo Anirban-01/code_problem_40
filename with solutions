@@ -1,0 +1,9 @@
+# Write a Python program to display formatted text (width=50) as output.
+
+import textwrap
+
+sample_text = "Hi', I'am Anirban Sen. " \
+              "I stay in Bangalore."
+wrap_text = textwrap.shorten(sample_text, width=50)
+
+print(wrap_text)
